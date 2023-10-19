@@ -1,6 +1,6 @@
 import java.util.*;
 
-class task1 {
+class NumberGame {
     public static void main(String[] args) {
         int answer, guess;
         final int MAX = 100;
