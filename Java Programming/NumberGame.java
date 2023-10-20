@@ -32,7 +32,7 @@ class NumberGame {
                     System.out.println("\t\tToo low, guess again.\n\t\t    " + rem + " tries left.");
                 } else {
                     System.out.println("\t    Yes, you guessed the number.");
-                    System.out.println("\t\tYour Score: " + score);
+                    System.out.println("\t\tYour Score: " + score + "/100");
                     correct = true;
                 }
                 System.out.println("<=================================================>");
