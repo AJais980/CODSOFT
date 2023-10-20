@@ -5,9 +5,9 @@ class NumberGame {
         int answer, guess;
         final int MAX = 100;
         Scanner sc = new Scanner(System.in);
-        System.out.println("<===============================================>");
+        System.out.println("<=================================================>");
         System.out.println("\t    Welcome To The Number Game");
-        System.out.println("<===============================================>");
+        System.out.println("<=================================================>");
         System.out.print("\tEnter max tries you want to take: ");
         int maxTries = sc.nextInt();
         String reRun = "yes";
@@ -32,7 +32,7 @@ class NumberGame {
                     System.out.println("\t    Yes, you guessed the number.");
                     correct = true;
                 }
-                System.out.println("<===============================================>");
+                System.out.println("<=================================================>");
             }
             System.out.print("\t\tWanna try again?: ");
             reRun = sc.next();
