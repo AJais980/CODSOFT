@@ -24,12 +24,16 @@ class NumberGame {
                 System.out.print("\tGuess a number between 1 and 100: ");
                 guess = sc.nextInt();
                 usedTries++;
+                int rem = maxTries - usedTries;
+                int score = (rem * 100) / maxTries;
+                System.out.println(score);
                 if (guess > answer) {
-                    System.out.println("\t\tToo high, guess again.");
+                    System.out.println("\t\tToo high, guess again.\n\t\t    " + rem + " tries left.");
                 } else if (guess < answer) {
-                    System.out.println("\t\tToo low, guess again.");
+                    System.out.println("\t\tToo low, guess again.\n\t\t    " + rem + " tries left.");
                 } else {
                     System.out.println("\t    Yes, you guessed the number.");
+                    System.out.println("\t\tYour Score: " + score);
                     correct = true;
                 }
                 System.out.println("<=================================================>");
