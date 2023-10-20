@@ -26,7 +26,6 @@ class NumberGame {
                 usedTries++;
                 int rem = maxTries - usedTries;
                 int score = (rem * 100) / maxTries;
-                System.out.println(score);
                 if (guess > answer) {
                     System.out.println("\t\tToo high, guess again.\n\t\t    " + rem + " tries left.");
                 } else if (guess < answer) {
