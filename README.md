@@ -22,6 +22,10 @@ This repository contains the projects I completed during my internship at [Codso
 - Description: During this project, I created a landing page for a website using HTML, CSS, and JavaScript. This project helped me improve my web development skills.
 - Files: [index.html](Web%20Development/Landing%20Page/index.html), [styles.css](Web%20Development/Landing%20Page/css/styles.css), [script.js](Web%20Development/Landing%20Page/js/main.js)
 
+### To-Do List
+- Description: In this project, I Created a user-friendly to-do list app using HTML, CSS, and JavaScript, enabling task management with features like addition, editing, and deletion, while utilizing local storage for data persistence.
+- Files: [index.html](Web%20Development/To-Do%20List/index.html), [style.css](Web%20Development/To-Do%20List/style.css), [script.js](Web%20Development/To-Do%20List/script.js)
+
 ### Portfolio
 - Description: For this project, I developed a personal portfolio website using HTML, CSS, and JavaScript. Building a portfolio is a popular beginner web development project that allows me to showcase my skills and projects.
 - Files: [index.html](Web%20Development/Portfolio/index.html), [style.css](Web%20Development/Portfolio/style.css)
