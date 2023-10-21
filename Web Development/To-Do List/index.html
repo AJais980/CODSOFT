@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="logo.png">
+    <title>To-Do List</title>
+    <link rel="canonical" href="https://codepen.io/BringCreativity/pen/XWxvxNP">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body translate="no">
+
+    <header>
+        <h1>To Do List</h1>
+    </header>
+    <form>
+        <input type="text" class="todo-inputs" placeholder="Task Name">
+        <button class="todo-button" style="height: 53px;">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="filter-todos">
+                <option value="all">ALL</option>
+                <option value="completed">COMPLETED</option>
+                <option value="uncompleted">INCOMPLETE</option>
+            </select>
+        </div>
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
